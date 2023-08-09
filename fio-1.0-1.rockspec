@@ -5,8 +5,8 @@ source = {
    tag = "v1.0"
 }
 description = {
-   summary = "Fio is a file module for lua",
-   detailed = "Fio provides functions to serializing and deserializing Json along with an easier way to access files inspired by python",
+   summary = "Easy file module for lua written in lua",
+   detailed = "Fio provides multiple functions for file system operations and includes JSON operations",
    homepage = "https://github.com/Sk1-z/Fio"
 }
 dependencies = {
@@ -16,6 +16,6 @@ dependencies = {
 build = {
    type = "builtin",
    modules = {
-      Fio = "..\Fio.lua"
+      Fio = "Fio.lua"
    }
 }
